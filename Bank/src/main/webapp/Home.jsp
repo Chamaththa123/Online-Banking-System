@@ -11,31 +11,24 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-
-
 #navbar {
   overflow: hidden;
-  background-color: #333;
+  background-color: #fff;
 }
 
 #navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color:black;
   text-align: center;
-  padding: 14px 16px;
+  padding: 14px 17px;
   text-decoration: none;
   font-size: 17px;
 }
 
-#navbar a:hover {
-  background-color: #ddd;
-  color: black;
-}
 
 #navbar a.active {
-  background-color: #04AA6D;
-  color: white;
+  color: #2A5EE8;
 }
 
 .content {
@@ -54,17 +47,15 @@ body {
 </style>
 </head>
 <body>
-<div class="header1">
-  
-  <p>Scroll down to see the sticky effect.</p>
-</div>
 
 <div id="navbar">
   <a class="active" href="javascript:void(0)">Home</a>
-  <a href="javascript:void(0)">News</a>
-  <a href="javascript:void(0)">Contact</a>
+  <a href="javascript:void(0)">Personal Banking</a>
+  <a href="javascript:void(0)">Branches/ATMs</a>
+  <a href="javascript:void(0)">About Us</a>
+   <img src="images/banklogo.png" alt="bank logo" width="auto" height="80" style="margin-top:-20px;float:right"/>
 </div>
-
+<hr style='margin-top:-1px'/>
 <div class="content">
   <h3>Sticky Navigation Example</h3>
   <p>The navbar will stick to the top when you reach its scroll position.</p>
@@ -74,6 +65,10 @@ body {
   <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
   <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
   <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
+  <p>The navbar will stick to the top when you reach its scroll position.</p>
+  <p>The navbar will stick to the top when you reach its scroll position.</p>
+  <p>The navbar will stick to the top when you reach its scroll position.</p>
+  <p>The navbar will stick to the top when you reach its scroll position.</p>
   <p>Some text to enable scrolling.. Lorem ipsum dolor sit amet, illum definitiones no quo, maluisset concludaturque et eum, altera fabulas ut quo. Atqui causae gloriatur ius te, id agam omnis evertitur eum. Affert laboramus repudiandae nec et. Inciderint efficiantur his ad. Eum no molestiae voluptatibus.</p>
 </div>
 
